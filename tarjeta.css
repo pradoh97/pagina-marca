@@ -1,0 +1,39 @@
+.tarjeta{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 400px;
+  font-family: sans-serif;
+  border-radius: 5px;
+  box-shadow: 0 0 0.4em rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  background-color: var(--color-normal);
+}
+.tarjeta .informacion{
+  flex-grow: 1;
+  padding: 0 1em;
+}
+.tarjeta .cabecera{
+  position: relative;
+}
+.tarjeta .cabecera p{
+  position: absolute;
+  top: 0;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  padding: 1em 0;
+  background-color: var(--color-contraste-transparente);
+  color: var(--color-normal);
+  font-weight: 600;
+}
+.tarjeta img{
+  width: 100%;
+}
+
+.tarjeta:hover{
+  transform: scale(1.2);
+  z-index: 1;
+}

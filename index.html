@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0;">
+    <title>Zapatos - Juan Diaz</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="boton.css">
+    <link rel="stylesheet" href="tarjeta.css">
+     <script defer src="friconix.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="menu-principal">
+        <div class="logo">
+          <a href="#logo" id="logo">JD</a>
+        </div>
+        <a href="#sobre">Sobre nosotrxs</a>
+        <a href="#productos">Productos</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#logo" id="volver-arriba"><i class="fi-xnsuxl-chevron-solid"></i></a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h1 id="sobre">Conocé nuestra eco-marca</h1>
+        <p>En Juan Diaz nos dedicamos a <strong>perfeccionar nuestras lineas y cuidar nuestro ambiente</strong>. Todos somos parte de este planeta, por lo que, además de cuidarlo, <em>fabricamos los calzados adecuados para recorrerlo.</em></p>
+      </section>
+      <section class="productos">
+        <h1 id="productos">Nuestras obras de arte</h1>
+
+        <div class="grilla">
+          <div class="tarjeta producto">
+            <div class="cabecera">
+              <img src="res/img/zapato 1.jpg" alt="Zapatos Greenerds">
+              <p class="nombre-producto">Diaz Greenerds</p>
+            </div>
+            <div class="informacion">
+              <p>Ecológicos, ideales para eventos casuales.</p>
+            </div>
+            <button class="cta" type="button" name="button">¡Tuyos por <span class="precio-producto">$5.5!</span></button>
+          </div>
+
+          <div class="tarjeta producto">
+            <div class="cabecera">
+              <img src="res/img/zapato 2.jpg" alt="Zapatos Greenerds">
+              <p class="nombre-producto">Diaz 4x4</p>
+            </div>
+            <div class="informacion">
+              <p>Ecológicos, aptos para todo terreno.</p>
+            </div>
+            <button class="cta" type="button" name="button">¡Tuyos por <span class="precio-producto">$8.5!</span></button>
+          </div>
+
+          <div class="tarjeta producto">
+            <div class="cabecera">
+              <img src="res/img/zapato 3.jpg" alt="Zapatos Greenerds">
+              <p class="nombre-producto">Diazsports</p>
+            </div>
+            <div class="informacion">
+              <p>Ecológicos, ideales para andar por la vida.</p>
+            </div>
+            <button class="cta" type="button" name="button">¡Tuyos por <span class="precio-producto">$7.5!</span></button>
+          </div>
+        </div>
+
+      </section>
+
+      <section>
+        <h1 id="contacto">¿Querés hablar con nosotros?</h1>
+        <form>
+          <label for="nombre">Decinos tu nombre</label>
+          <input id="nombre" type="text" placeholder="Sir Juan Diaz" required>
+          <label for="email">Y tu correo, así te contestamos ;)</label>
+          <input id="email" type="email" placeholder="sirjuan@diaz.com" required>
+          <label for="mensaje">¡Contanos lo que quieras!</label>
+          <textarea id="mensaje" placeholder="¡Amo sus productos!" required></textarea>
+          <button class="cta" type="submit">¡Enviar!</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>© Juan Diaz - 2020. Todos los derechos reservados.</p>
+      <nav>
+        <div class="grupo-enlaces">
+          <h1>Sobre Juan Diaz</h1>
+          <a href="#">Origen</a>
+          <a href="#">Misión</a>
+          <a href="#">Políticas de privacidad</a>
+        </div>
+        <div class="grupo-enlaces">
+          <h1>Trabajá con nosotrxs</h1>
+          <a href="#">Todas las posiciones abiertas</a>
+          <a href="#">Argentina</a>
+          <a href="#">México</a>
+          <a href="#">España</a>
+          <a href="#">America del Norte</a>
+        </div>
+      </nav>
+    </footer>
+  </body>
+</html>
